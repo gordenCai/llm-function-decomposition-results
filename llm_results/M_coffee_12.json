@@ -1,0 +1,175 @@
+{
+    "Function ID": "F",
+    "Function Name": "Make coffee",
+    "Layer": 0,
+    "Children": [
+        {
+            "Function ID": "F1",
+            "Function Name": "Supply power",
+            "Layer": 1,
+            "Children": [
+                {
+                    "Function ID": "F1.1",
+                    "Function Name": "Provide power",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F1.1.2",
+                            "Function Name": "Adjust water volume",
+                            "Layer": 3,
+                            "Children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Function ID": "F2",
+            "Function Name": "Heat device",
+            "Layer": 1,
+            "Children": [
+                {
+                    "Function ID": "F2.1",
+                    "Function Name": "Store water",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F2.1.1",
+                            "Function Name": "Store freshwater",
+                            "Layer": 3,
+                            "Children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Function ID": "F3",
+            "Function Name": "Dispense water",
+            "Layer": 1,
+            "Children": [
+                {
+                    "Function ID": "F3.1",
+                    "Function Name": "Supply water",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F3.1.1",
+                            "Function Name": "Guarantee water quality",
+                            "Layer": 3,
+                            "Children": [
+                                {
+                                    "Function ID": "F3.1.1.1",
+                                    "Function Name": "Preserve water quality",
+                                    "Layer": 4,
+                                    "Children": []
+                                },
+                                {
+                                    "Function ID": "F3.1.1.2",
+                                    "Function Name": "Check water level",
+                                    "Layer": 4,
+                                    "Children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Function ID": "F3.2",
+                    "Function Name": "Dispense beverages",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F3.2.1",
+                            "Function Name": "Select bean type",
+                            "Layer": 3,
+                            "Children": []
+                        },
+                        {
+                            "Function ID": "F3.2.2",
+                            "Function Name": "Empty dust",
+                            "Layer": 3,
+                            "Children": []
+                        }
+                    ]
+                },
+                {
+                    "Function ID": "F3.3",
+                    "Function Name": "Indicate water level",
+                    "Layer": 2,
+                    "Children": []
+                },
+                {
+                    "Function ID": "F3.4",
+                    "Function Name": "Refill water",
+                    "Layer": 2,
+                    "Children": []
+                }
+            ]
+        },
+        {
+            "Function ID": "F4",
+            "Function Name": "Adjust water flow",
+            "Layer": 1,
+            "Children": [
+                {
+                    "Function ID": "F4.1",
+                    "Function Name": "Change water",
+                    "Layer": 2,
+                    "Children": []
+                },
+                {
+                    "Function ID": "F4.3",
+                    "Function Name": "Control water flow",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F4.3.1",
+                            "Function Name": "Empty water",
+                            "Layer": 3,
+                            "Children": []
+                        }
+                    ]
+                },
+                {
+                    "Function ID": "F4.4",
+                    "Function Name": "Measure flow",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F4.4.1",
+                            "Function Name": "Measure distance",
+                            "Layer": 3,
+                            "Children": []
+                        },
+                        {
+                            "Function ID": "F4.4.2",
+                            "Function Name": "Measure pressure",
+                            "Layer": 3,
+                            "Children": []
+                        },
+                        {
+                            "Function ID": "F4.4.3",
+                            "Function Name": "Control temperature",
+                            "Layer": 3,
+                            "Children": [
+                                {
+                                    "Function ID": "F4.4.3.1",
+                                    "Function Name": "Control heating",
+                                    "Layer": 4,
+                                    "Children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Function ID": "F5",
+            "Function Name": "Enable input",
+            "Layer": 1,
+            "Children": []
+        }
+    ]
+}

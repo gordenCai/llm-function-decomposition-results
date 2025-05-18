@@ -1,0 +1,278 @@
+{
+    "Function ID": "F",
+    "Function Name": "Drive screws",
+    "Layer": 0,
+    "Children": [
+        {
+            "Function ID": "F1",
+            "Function Name": "Supply power",
+            "Layer": 1,
+            "Children": [
+                {
+                    "Function ID": "F1.1",
+                    "Function Name": "Store energy",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F1.1.1",
+                            "Function Name": "Control power",
+                            "Layer": 3,
+                            "Children": [
+                                {
+                                    "Function ID": "F1.1.1.1",
+                                    "Function Name": "Connect to power source",
+                                    "Layer": 4,
+                                    "Children": [
+                                        {
+                                            "Function ID": "F1.1.1.1.1",
+                                            "Function Name": "Connect to AC plugs",
+                                            "Layer": 5,
+                                            "Children": []
+                                        },
+                                        {
+                                            "Function ID": "F1.1.1.1.2",
+                                            "Function Name": "Connect to USB plugs",
+                                            "Layer": 5,
+                                            "Children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Function ID": "F1.1.2",
+                            "Function Name": "Enable cutting",
+                            "Layer": 3,
+                            "Children": [
+                                {
+                                    "Function ID": "F1.1.2.1",
+                                    "Function Name": "Attach equipment",
+                                    "Layer": 4,
+                                    "Children": []
+                                },
+                                {
+                                    "Function ID": "F1.1.2.2",
+                                    "Function Name": "Charge tool",
+                                    "Layer": 4,
+                                    "Children": [
+                                        {
+                                            "Function ID": "F1.1.2.2.1",
+                                            "Function Name": "Enable user access to banknotes",
+                                            "Layer": 5,
+                                            "Children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Function ID": "F1.2",
+                    "Function Name": "Provide power reserve",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F1.2.1",
+                            "Function Name": "Enable recharging",
+                            "Layer": 3,
+                            "Children": []
+                        },
+                        {
+                            "Function ID": "F1.2.2",
+                            "Function Name": "Manage energy",
+                            "Layer": 3,
+                            "Children": []
+                        },
+                        {
+                            "Function ID": "F1.2.3",
+                            "Function Name": "Support power circuit",
+                            "Layer": 3,
+                            "Children": []
+                        }
+                    ]
+                },
+                {
+                    "Function ID": "F1.3",
+                    "Function Name": "Hold screw bits",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F1.3.1",
+                            "Function Name": "Store hex socket bits",
+                            "Layer": 3,
+                            "Children": []
+                        },
+                        {
+                            "Function ID": "F1.3.2",
+                            "Function Name": "Protect screw bits",
+                            "Layer": 3,
+                            "Children": []
+                        },
+                        {
+                            "Function ID": "F1.3.3",
+                            "Function Name": "Remove screw bits",
+                            "Layer": 3,
+                            "Children": [
+                                {
+                                    "Function ID": "F1.3.3.1",
+                                    "Function Name": "Remove bit",
+                                    "Layer": 4,
+                                    "Children": []
+                                }
+                            ]
+                        },
+                        {
+                            "Function ID": "F1.3.4",
+                            "Function Name": "Attach bits",
+                            "Layer": 3,
+                            "Children": [
+                                {
+                                    "Function ID": "F1.3.4.1",
+                                    "Function Name": "Select bit",
+                                    "Layer": 4,
+                                    "Children": [
+                                        {
+                                            "Function ID": "F1.3.4.1.1",
+                                            "Function Name": "Return bit",
+                                            "Layer": 5,
+                                            "Children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Function ID": "F1.3.4.3",
+                                    "Function Name": "Unlock bit",
+                                    "Layer": 4,
+                                    "Children": []
+                                }
+                            ]
+                        },
+                        {
+                            "Function ID": "F1.3.5",
+                            "Function Name": "Release drill bit",
+                            "Layer": 3,
+                            "Children": [
+                                {
+                                    "Function ID": "F1.3.5.1",
+                                    "Function Name": "Open tool holder",
+                                    "Layer": 4,
+                                    "Children": []
+                                },
+                                {
+                                    "Function ID": "F1.3.5.2",
+                                    "Function Name": "Lock bit",
+                                    "Layer": 4,
+                                    "Children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Function ID": "F2",
+            "Function Name": "Provide torque",
+            "Layer": 1,
+            "Children": [
+                {
+                    "Function ID": "F2.1",
+                    "Function Name": "Provide power",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F2.1.1",
+                            "Function Name": "Enable torque transfer",
+                            "Layer": 3,
+                            "Children": [
+                                {
+                                    "Function ID": "F2.1.1.1",
+                                    "Function Name": "Optimize power transmission",
+                                    "Layer": 4,
+                                    "Children": []
+                                },
+                                {
+                                    "Function ID": "F2.1.1.2",
+                                    "Function Name": "Enable rotary movement",
+                                    "Layer": 4,
+                                    "Children": [
+                                        {
+                                            "Function ID": "F2.1.1.2.1",
+                                            "Function Name": "Provide rotary motion",
+                                            "Layer": 5,
+                                            "Children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Function ID": "F2.1.2",
+                            "Function Name": "Allow data sharing",
+                            "Layer": 3,
+                            "Children": [
+                                {
+                                    "Function ID": "F2.1.2.1",
+                                    "Function Name": "Transport tools",
+                                    "Layer": 4,
+                                    "Children": []
+                                }
+                            ]
+                        },
+                        {
+                            "Function ID": "F2.1.3",
+                            "Function Name": "Provide gripping",
+                            "Layer": 3,
+                            "Children": [
+                                {
+                                    "Function ID": "F2.1.3.1",
+                                    "Function Name": "Adjust torque",
+                                    "Layer": 4,
+                                    "Children": [
+                                        {
+                                            "Function ID": "F2.1.3.1.1",
+                                            "Function Name": "Limit heat",
+                                            "Layer": 5,
+                                            "Children": []
+                                        },
+                                        {
+                                            "Function ID": "F2.1.3.1.2",
+                                            "Function Name": "Adjust speed",
+                                            "Layer": 5,
+                                            "Children": []
+                                        },
+                                        {
+                                            "Function ID": "F2.1.3.1.3",
+                                            "Function Name": "Preselect torque",
+                                            "Layer": 5,
+                                            "Children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Function ID": "F3",
+            "Function Name": "Control torque",
+            "Layer": 1,
+            "Children": []
+        },
+        {
+            "Function ID": "F4",
+            "Function Name": "Charge battery",
+            "Layer": 1,
+            "Children": []
+        },
+        {
+            "Function ID": "F5",
+            "Function Name": "Store tools",
+            "Layer": 1,
+            "Children": []
+        }
+    ]
+}

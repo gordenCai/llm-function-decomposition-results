@@ -1,0 +1,329 @@
+{
+    "Function ID": "F",
+    "Function Name": "Make coffee",
+    "Layer": 0,
+    "Children": [
+        {
+            "Function ID": "F1",
+            "Function Name": "Supply power",
+            "Layer": 1,
+            "Children": [
+                {
+                    "Function ID": "F1.1",
+                    "Function Name": "Provide power",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F1.1.1",
+                            "Function Name": "Supply energy",
+                            "Layer": 3,
+                            "Children": []
+                        },
+                        {
+                            "Function ID": "F1.1.2",
+                            "Function Name": "Control power",
+                            "Layer": 3,
+                            "Children": [
+                                {
+                                    "Function ID": "F1.1.2.1",
+                                    "Function Name": "Manage energy",
+                                    "Layer": 4,
+                                    "Children": []
+                                },
+                                {
+                                    "Function ID": "F1.1.2.2",
+                                    "Function Name": "Provide heat dissipation",
+                                    "Layer": 4,
+                                    "Children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Function ID": "F1.2",
+                    "Function Name": "Control heating",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F1.2.1",
+                            "Function Name": "Adjust temperature",
+                            "Layer": 3,
+                            "Children": [
+                                {
+                                    "Function ID": "F1.2.1.2",
+                                    "Function Name": "Provide diagnostics",
+                                    "Layer": 4,
+                                    "Children": []
+                                }
+                            ]
+                        },
+                        {
+                            "Function ID": "F1.2.3",
+                            "Function Name": "Enable precise heating",
+                            "Layer": 3,
+                            "Children": []
+                        },
+                        {
+                            "Function ID": "F1.2.4",
+                            "Function Name": "Manage water",
+                            "Layer": 3,
+                            "Children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Function ID": "F2",
+            "Function Name": "Heat device",
+            "Layer": 1,
+            "Children": [
+                {
+                    "Function ID": "F2.2",
+                    "Function Name": "Provide heat resistance",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F2.2.1",
+                            "Function Name": "Dissipate heat",
+                            "Layer": 3,
+                            "Children": []
+                        },
+                        {
+                            "Function ID": "F2.2.2",
+                            "Function Name": "Maintain power supply",
+                            "Layer": 3,
+                            "Children": [
+                                {
+                                    "Function ID": "F2.2.2.1",
+                                    "Function Name": "Provide emergency backup power",
+                                    "Layer": 4,
+                                    "Children": []
+                                },
+                                {
+                                    "Function ID": "F2.2.2.3",
+                                    "Function Name": "Store energy",
+                                    "Layer": 4,
+                                    "Children": []
+                                }
+                            ]
+                        },
+                        {
+                            "Function ID": "F2.2.3",
+                            "Function Name": "Ensure heat",
+                            "Layer": 3,
+                            "Children": []
+                        },
+                        {
+                            "Function ID": "F2.2.4",
+                            "Function Name": "Prevent heat dissipation",
+                            "Layer": 3,
+                            "Children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Function ID": "F3",
+            "Function Name": "Adjust water flow",
+            "Layer": 1,
+            "Children": [
+                {
+                    "Function ID": "F3.1",
+                    "Function Name": "Control water flow",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F3.1.1",
+                            "Function Name": "Control valve",
+                            "Layer": 3,
+                            "Children": []
+                        }
+                    ]
+                },
+                {
+                    "Function ID": "F3.2",
+                    "Function Name": "Adjust water volume",
+                    "Layer": 2,
+                    "Children": []
+                },
+                {
+                    "Function ID": "F3.3",
+                    "Function Name": "Supply cooling water",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F3.3.1",
+                            "Function Name": "Provide cooling",
+                            "Layer": 3,
+                            "Children": [
+                                {
+                                    "Function ID": "F3.3.1.1",
+                                    "Function Name": "Control ventilation",
+                                    "Layer": 4,
+                                    "Children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Function ID": "F3.4",
+                    "Function Name": "Preserve water quality",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F3.4.1",
+                            "Function Name": "Assess water quality",
+                            "Layer": 3,
+                            "Children": [
+                                {
+                                    "Function ID": "F3.4.1.1",
+                                    "Function Name": "Monitor water",
+                                    "Layer": 4,
+                                    "Children": []
+                                }
+                            ]
+                        },
+                        {
+                            "Function ID": "F3.4.2",
+                            "Function Name": "Store freshwater",
+                            "Layer": 3,
+                            "Children": []
+                        },
+                        {
+                            "Function ID": "F3.4.3",
+                            "Function Name": "Prevent water ingress",
+                            "Layer": 3,
+                            "Children": [
+                                {
+                                    "Function ID": "F3.4.3.1",
+                                    "Function Name": "Repel water",
+                                    "Layer": 4,
+                                    "Children": []
+                                },
+                                {
+                                    "Function ID": "F3.4.3.2",
+                                    "Function Name": "Prevent liquid leaks",
+                                    "Layer": 4,
+                                    "Children": [
+                                        {
+                                            "Function ID": "F3.4.3.2.1",
+                                            "Function Name": "Detect leakage",
+                                            "Layer": 5,
+                                            "Children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Function ID": "F3.4.3.3",
+                                    "Function Name": "Support different voltage outputs",
+                                    "Layer": 4,
+                                    "Children": []
+                                },
+                                {
+                                    "Function ID": "F3.4.3.4",
+                                    "Function Name": "Detect moisture",
+                                    "Layer": 4,
+                                    "Children": []
+                                }
+                            ]
+                        },
+                        {
+                            "Function ID": "F3.4.4",
+                            "Function Name": "Guarantee water quality",
+                            "Layer": 3,
+                            "Children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Function ID": "F4",
+            "Function Name": "Refill water",
+            "Layer": 1,
+            "Children": [
+                {
+                    "Function ID": "F4.1",
+                    "Function Name": "Supply water",
+                    "Layer": 2,
+                    "Children": []
+                },
+                {
+                    "Function ID": "F4.2",
+                    "Function Name": "Indicate water level",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F4.2.1",
+                            "Function Name": "Check water level",
+                            "Layer": 3,
+                            "Children": [
+                                {
+                                    "Function ID": "F4.2.1.1",
+                                    "Function Name": "Empty water",
+                                    "Layer": 4,
+                                    "Children": []
+                                }
+                            ]
+                        },
+                        {
+                            "Function ID": "F4.2.2",
+                            "Function Name": "Indicate fill level",
+                            "Layer": 3,
+                            "Children": []
+                        }
+                    ]
+                },
+                {
+                    "Function ID": "F4.3",
+                    "Function Name": "Change water",
+                    "Layer": 2,
+                    "Children": []
+                },
+                {
+                    "Function ID": "F4.4",
+                    "Function Name": "Dispense water",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F4.4.1",
+                            "Function Name": "Provide high-impact energy",
+                            "Layer": 3,
+                            "Children": []
+                        }
+                    ]
+                },
+                {
+                    "Function ID": "F4.5",
+                    "Function Name": "Store water",
+                    "Layer": 2,
+                    "Children": []
+                }
+            ]
+        },
+        {
+            "Function ID": "F5",
+            "Function Name": "Dispense beverages",
+            "Layer": 1,
+            "Children": [
+                {
+                    "Function ID": "F5.1",
+                    "Function Name": "Select bean type",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F5.1.1",
+                            "Function Name": "Control temperature",
+                            "Layer": 3,
+                            "Children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

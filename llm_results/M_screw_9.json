@@ -1,0 +1,356 @@
+{
+    "Function ID": "F",
+    "Function Name": "Drive screws",
+    "Layer": 0,
+    "Children": [
+        {
+            "Function ID": "F1",
+            "Function Name": "Provide torque",
+            "Layer": 1,
+            "Children": [
+                {
+                    "Function ID": "F1.1",
+                    "Function Name": "Supply power",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F1.1.1",
+                            "Function Name": "Deliver power",
+                            "Layer": 3,
+                            "Children": []
+                        },
+                        {
+                            "Function ID": "F1.1.2",
+                            "Function Name": "Store energy",
+                            "Layer": 3,
+                            "Children": [
+                                {
+                                    "Function ID": "F1.1.2.1",
+                                    "Function Name": "Store renewable energy",
+                                    "Layer": 4,
+                                    "Children": []
+                                },
+                                {
+                                    "Function ID": "F1.1.2.3",
+                                    "Function Name": "Connect to power supply",
+                                    "Layer": 4,
+                                    "Children": []
+                                }
+                            ]
+                        },
+                        {
+                            "Function ID": "F1.1.3",
+                            "Function Name": "Support power circuit",
+                            "Layer": 3,
+                            "Children": []
+                        }
+                    ]
+                },
+                {
+                    "Function ID": "F1.3",
+                    "Function Name": "Adjust torque",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F1.3.1",
+                            "Function Name": "Adjust speed",
+                            "Layer": 3,
+                            "Children": []
+                        },
+                        {
+                            "Function ID": "F1.3.2",
+                            "Function Name": "Adjust gripping force",
+                            "Layer": 3,
+                            "Children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Function ID": "F2",
+            "Function Name": "Charge tool",
+            "Layer": 1,
+            "Children": [
+                {
+                    "Function ID": "F2.2",
+                    "Function Name": "Manage energy",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F2.2.1",
+                            "Function Name": "Provide gripping",
+                            "Layer": 3,
+                            "Children": []
+                        },
+                        {
+                            "Function ID": "F2.2.2",
+                            "Function Name": "Store tools",
+                            "Layer": 3,
+                            "Children": [
+                                {
+                                    "Function ID": "F2.2.2.1",
+                                    "Function Name": "Provide power",
+                                    "Layer": 4,
+                                    "Children": [
+                                        {
+                                            "Function ID": "F2.2.2.1.1",
+                                            "Function Name": "Enable cutting",
+                                            "Layer": 5,
+                                            "Children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Function ID": "F2.2.2.2",
+                                    "Function Name": "Remove tools",
+                                    "Layer": 4,
+                                    "Children": [
+                                        {
+                                            "Function ID": "F2.2.2.2.1",
+                                            "Function Name": "Attach bits",
+                                            "Layer": 5,
+                                            "Children": [
+                                                {
+                                                    "Function ID": "F2.2.2.2.1.1",
+                                                    "Function Name": "Select bit",
+                                                    "Layer": 6,
+                                                    "Children": []
+                                                },
+                                                {
+                                                    "Function ID": "F2.2.2.2.1.2",
+                                                    "Function Name": "Unlock bit",
+                                                    "Layer": 6,
+                                                    "Children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Function ID": "F2.2.2.3",
+                                    "Function Name": "Transport tools",
+                                    "Layer": 4,
+                                    "Children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Function ID": "F2.3",
+                    "Function Name": "Charge battery",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F2.3.1",
+                            "Function Name": "Charge batteries",
+                            "Layer": 3,
+                            "Children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Function ID": "F3",
+            "Function Name": "Control torque",
+            "Layer": 1,
+            "Children": [
+                {
+                    "Function ID": "F3.1",
+                    "Function Name": "Preselect torque",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F3.1.1",
+                            "Function Name": "Select torque",
+                            "Layer": 3,
+                            "Children": [
+                                {
+                                    "Function ID": "F3.1.1.1",
+                                    "Function Name": "Monitor torque",
+                                    "Layer": 4,
+                                    "Children": []
+                                },
+                                {
+                                    "Function ID": "F3.1.1.2",
+                                    "Function Name": "Limit tightening torque",
+                                    "Layer": 4,
+                                    "Children": [
+                                        {
+                                            "Function ID": "F3.1.1.2.1",
+                                            "Function Name": "Limit heat",
+                                            "Layer": 5,
+                                            "Children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Function ID": "F3.3",
+                    "Function Name": "Reverse rotation",
+                    "Layer": 2,
+                    "Children": []
+                }
+            ]
+        },
+        {
+            "Function ID": "F4",
+            "Function Name": "Hold screw bits",
+            "Layer": 1,
+            "Children": [
+                {
+                    "Function ID": "F4.1",
+                    "Function Name": "Store hex socket bits",
+                    "Layer": 2,
+                    "Children": []
+                },
+                {
+                    "Function ID": "F4.2",
+                    "Function Name": "Protect screw bits",
+                    "Layer": 2,
+                    "Children": [
+                        {
+                            "Function ID": "F4.2.1",
+                            "Function Name": "Protect against dirt",
+                            "Layer": 3,
+                            "Children": [
+                                {
+                                    "Function ID": "F4.2.1.1",
+                                    "Function Name": "Prevent dust entry",
+                                    "Layer": 4,
+                                    "Children": [
+                                        {
+                                            "Function ID": "F4.2.1.1.1",
+                                            "Function Name": "Minimize dust intake",
+                                            "Layer": 5,
+                                            "Children": []
+                                        },
+                                        {
+                                            "Function ID": "F4.2.1.1.2",
+                                            "Function Name": "Contain dust",
+                                            "Layer": 5,
+                                            "Children": []
+                                        },
+                                        {
+                                            "Function ID": "F4.2.1.1.3",
+                                            "Function Name": "Seal housing",
+                                            "Layer": 5,
+                                            "Children": [
+                                                {
+                                                    "Function ID": "F4.2.1.1.3.1",
+                                                    "Function Name": "Secure individual parts",
+                                                    "Layer": 6,
+                                                    "Children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Function ID": "F4.2.1.2",
+                                    "Function Name": "Collect dust",
+                                    "Layer": 4,
+                                    "Children": [
+                                        {
+                                            "Function ID": "F4.2.1.2.1",
+                                            "Function Name": "Suction particles",
+                                            "Layer": 5,
+                                            "Children": []
+                                        },
+                                        {
+                                            "Function ID": "F4.2.1.2.2",
+                                            "Function Name": "Empty dust",
+                                            "Layer": 5,
+                                            "Children": []
+                                        },
+                                        {
+                                            "Function ID": "F4.2.1.2.3",
+                                            "Function Name": "Filter dust",
+                                            "Layer": 5,
+                                            "Children": [
+                                                {
+                                                    "Function ID": "F4.2.1.2.3.1",
+                                                    "Function Name": "Filter air",
+                                                    "Layer": 6,
+                                                    "Children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Function ID": "F4.2.1.3",
+                                    "Function Name": "Connect to dust collection",
+                                    "Layer": 4,
+                                    "Children": [
+                                        {
+                                            "Function ID": "F4.2.1.3.1",
+                                            "Function Name": "Enable recharging",
+                                            "Layer": 5,
+                                            "Children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Function ID": "F4.2.1.4",
+                                    "Function Name": "Minimize dust",
+                                    "Layer": 4,
+                                    "Children": [
+                                        {
+                                            "Function ID": "F4.2.1.4.1",
+                                            "Function Name": "Enable dust removal",
+                                            "Layer": 5,
+                                            "Children": [
+                                                {
+                                                    "Function ID": "F4.2.1.4.1.1",
+                                                    "Function Name": "Provide suction",
+                                                    "Layer": 6,
+                                                    "Children": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Function ID": "F4.2.1.4.2",
+                                            "Function Name": "Lock away dust",
+                                            "Layer": 5,
+                                            "Children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Function ID": "F4.2.2",
+                            "Function Name": "Enable data connectivity",
+                            "Layer": 3,
+                            "Children": []
+                        }
+                    ]
+                },
+                {
+                    "Function ID": "F4.3",
+                    "Function Name": "Hold screws",
+                    "Layer": 2,
+                    "Children": []
+                },
+                {
+                    "Function ID": "F4.4",
+                    "Function Name": "Lock bit",
+                    "Layer": 2,
+                    "Children": []
+                }
+            ]
+        },
+        {
+            "Function ID": "F5",
+            "Function Name": "Remove screw bits",
+            "Layer": 1,
+            "Children": []
+        }
+    ]
+}
